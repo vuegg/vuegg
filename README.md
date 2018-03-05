@@ -22,6 +22,8 @@
 
 ## Main Features
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/vuegg/vuegg.svg)](https://greenkeeper.io/)
+
 * Mockup / UI design
 * [Mouse and Keyboard combinations](https://github.com/vuegg/vuegg#mouse--keyboard-combinations) support in editor
 * Responsive preview (phone, tablet, web)
