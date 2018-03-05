@@ -16,6 +16,9 @@
   <a href="https://github.com/vuegg/vuegg/blob/master/LICENSE">
     <img src="https://img.shields.io/badge/license-MIT-green.svg" alt="mit">
   </a>
+  <a href="https://greenkeeper.io/">
+    <img src="https://badges.greenkeeper.io/vuegg/vuegg.svg" alt="mit">
+  </a>
 </p>
 
 </br>
