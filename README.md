@@ -193,3 +193,7 @@ Contribution is the most desirable help for keeping up the project, but for thos
 <a href="https://www.patreon.com/bePatron?u=10700791" target="_blank"><img src="https://raw.githubusercontent.com/vuegg/vuegg-assets/master/patreon.png" alt="Become a Patron" style="height:35px;width:auto"/></a> OR <a href="https://www.buymeacoffee.com/alxpez" target="_blank"><img src="https://raw.githubusercontent.com/vuegg/vuegg-assets/master/buymeacoffee.png" alt="Buy Me A Coffee" style="height:35px;width:auto"></a>
 
 Your donation will help me to stay awake during those hours I should be sleeping.
+
+## License
+
+[MIT](https://github.com/vuegg/vuegg/blob/master/LICENSE)
