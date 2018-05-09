@@ -9,17 +9,16 @@
     "vuegg": "npm run install:all && npm run build && npm run start",
     "vuegg:test": "npm run build && npm run start",
     "install:all": "npm run install:client && npm run install:server",
-    "install:client": "cd client && npm install",
+    "install:client": "cd client && npm install && npm rebuild node-sass",
     "install:server": "cd server && npm install",
     "client": "cd client && npm run dev",
     "server": "cd server && npm run dev",
     "build": "cd client && npm run build",
     "start": "cd server && npm run start",
-    "now-build": "npm run install:server",
-    "deploy": "npm run build && now -f -p",
+    "deploy": "now -f && now alias",
+    "release": "standard-version",
     "commit": "commit",
-    "commitmsg": "commitlint -e $GIT_PARAMS",
-    "release": "standard-version"
+    "commitmsg": "commitlint -e $GIT_PARAMS"
   },
   "commitlint": {
     "extends": [

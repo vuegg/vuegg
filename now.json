@@ -2,6 +2,7 @@
   "name": "vuegg",
   "alias": "vuegg",
   "public": true,
+  "type": "docker",
   "dotenv": true,
   "scale": {
     "sfo1": {
