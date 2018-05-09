@@ -31,16 +31,6 @@
       "commit": true
     }
   },
-  "now": {
-    "alias": "vuegg",
-    "dotenv": true,
-    "scale": {
-      "sfo1": {
-        "min": 2,
-        "max": 2
-      }
-    }
-  },
   "engines": {
     "node": ">= 8.0.0",
     "npm": ">= 5.0.0"
