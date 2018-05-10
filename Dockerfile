@@ -1,7 +1,7 @@
 FROM node:9-alpine
 
-LABEL name=vuegg \
-    maintainer="Alex Perez (@alxpez) <vuegger@gmail.com>"
+LABEL name=vuegg
+LABEL maintainer="Alex Perez (@alxpez) <vuegger@gmail.com>"
 
 # install git
 RUN apk update && apk upgrade && \
