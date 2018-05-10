@@ -1,6 +1,7 @@
 FROM node:9-alpine
 
-LABEL name vuegg
+LABEL name=vuegg \
+    maintainer="Alex Perez (@alxpez) <vuegger@gmail.com>"
 
 # install git
 RUN apk update && apk upgrade && \
@@ -9,7 +10,7 @@ RUN apk update && apk upgrade && \
 WORKDIR /app
 
 # copy sources
-ADD . /app
+COPY . /app
 
 # install dependencies and build dist
 RUN npm run install:all && \
