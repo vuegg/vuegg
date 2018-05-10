@@ -1,6 +1,5 @@
 FROM node:9-alpine
 
-LABEL name="vuegg"
 LABEL maintainer="Alex Perez (@alxpez) <vuegger@gmail.com>"
 
 # install git
