@@ -33,6 +33,7 @@ async function _vueBuilder (file, componentRefs, targetDir) {
   let styles = ""
   let imports = ""
   let declarations = ""
+  let fileId = file.id.substr(el.id.lastIndexOf(".") + 1)
 
   if (file.text) children += file.text
   styles += cssBuilder(file, true)
@@ -65,8 +66,8 @@ async function _vueBuilder (file, componentRefs, targetDir) {
   }
 
   shell.sed('-i', '{{PARENT_TAG}}', file.type || 'div', targetFile)
-  shell.sed('-i', '{{VUEGG_ID}}', S(file.id).replaceAll('.', '-').s, targetFile)
   shell.sed('-i', '{{VUEGG_ATTRS}}', _getFormattedAttrs(file.attrs), targetFile)
+  shell.sed('-i', '{{VUEGG_ID}}', S(fileId).replaceAll('.', '-').s, targetFile)
   shell.sed('-i', '{{VUEGG_NAME}}', S(file.name).humanize().slugify().s, targetFile)
   shell.sed('-i', '{{VUEGG_CHILDREN}}', children, targetFile)
   shell.sed('-i', '{{COMPONENTS_IMPORTS}}', imports, targetFile)
@@ -101,7 +102,7 @@ function _getFormattedAttrs (attrs) {
   if (attrs) {
     for (attr in attrs) {
       if ((typeof attrs[attr] !== 'boolean')) {
-        formattedAttrs += ' ' + attr + '=' + attrs[attr]
+        formattedAttrs += ' ' + attr + '="' + attrs[attr] + '"'
       } else if ((typeof attrs[attr] === 'boolean') && (attrs[attr] === true)) {
         formattedAttrs += ' ' + attr
       }
