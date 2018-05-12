@@ -33,7 +33,7 @@ async function _vueBuilder (file, componentRefs, targetDir) {
   let styles = ""
   let imports = ""
   let declarations = ""
-  let fileId = file.id.substr(el.id.lastIndexOf(".") + 1)
+  let fileId = file.id.substr(file.id.lastIndexOf(".") + 1)
 
   if (file.text) children += file.text
   styles += cssBuilder(file, true)
