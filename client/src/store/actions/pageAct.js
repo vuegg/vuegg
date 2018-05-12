@@ -29,8 +29,8 @@ const pageActions = {
     } else {
       let pagePayload = {
         page: getters.getPageById(payload.id),
-        name: payload.name.toString(),
-        path: payload.path.toString()
+        name: payload.name,
+        path: payload.path
       }
       commit(types.updatePage, pagePayload)
     }
