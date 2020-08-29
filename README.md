@@ -203,7 +203,7 @@ Do you like vuegg? :hatching_chick:
 
 As for today, this project is developed and maintained with :heart: by [@alxpez](https://github.com/alxpez), on spare time, after work hours and during homie weekends. There's still much work to do and ideas waiting to come afloat.
 
-Contribution is the most desirable help for keeping up the project, but for those with no much time in hands that still want contribute...
+Code contribution is the most desirable help to keep the project going, but for those with no much time in hands that still want contribute...
 
 <a href="https://www.patreon.com/bePatron?u=10700791" target="_blank"><img src="https://raw.githubusercontent.com/vuegg/vuegg-assets/master/patreon.png" alt="Become a Patron" style="height:35px;width:auto"/></a> OR <a href="https://www.buymeacoffee.com/alxpez" target="_blank"><img src="https://raw.githubusercontent.com/vuegg/vuegg-assets/master/buymeacoffee.png" alt="Buy Me A Coffee" style="height:35px;width:auto"></a>
 
