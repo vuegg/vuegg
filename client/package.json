@@ -22,7 +22,7 @@
     "optimicons": "npm run clean-svg:all && npm run svg2icon"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "clone-deep": "^2.0.2",
     "dialog-polyfill": "^0.4.9",
     "downloadjs": "^1.4.7",
