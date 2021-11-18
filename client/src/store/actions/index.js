@@ -1,7 +1,7 @@
-import authActions from './authAct'
+// import authActions from './authAct.js'
 import pageActions from './pageAct'
 import elementActions from './elementAct'
-import projectActions from './projectAct'
+// import projectActions from './projectAct'
 
 /**
  * Vuex Store Actions
@@ -11,8 +11,8 @@ import projectActions from './projectAct'
  * @see {@link https://vuex.vuejs.org/en/actions.html|Vuex Actions}
  */
 const actions = {
-  ...authActions,
-  ...projectActions,
+  // ...authActions,
+  // ...projectActions,
   ...pageActions,
   ...elementActions
 }

@@ -2,9 +2,9 @@ import localforage from 'localforage'
 import * as download from 'downloadjs'
 import showSnackbar from '@/helpers/showSnackbar'
 import newState from '@/factories/stateFactory'
-import types from '@/store/types'
-import store from '@/store'
-import api from '@/api'
+import types from '@/store/types.js'
+import store from '@/store/index.js'
+import api from '@/api/index.js'
 
 const projectActions = {
 /**
