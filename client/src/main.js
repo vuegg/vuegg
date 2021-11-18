@@ -6,14 +6,15 @@ import Tooltip from 'vue-directive-tooltip'
 import localforage from 'localforage'
 
 import App from './App'
-import router from './router/'
-import store from './store/'
+import router from './router/index.js'
+import store from './store/index.js'
 
-import './theme.scss'
+// import './theme.scss'
+import './theme.css'
 
 import 'normalize.css'
 import 'dialog-polyfill/dialog-polyfill.css'
-import 'vue-directive-tooltip/css/index.css'
+// import 'vue-directive-tooltip/css/index.css'
 
 localforage.config({ name: 'vuegg' })
 
@@ -32,8 +33,7 @@ const vm = new Vue({
   el: '#app',
   store,
   router,
-  template: '<App/>',
-  components: { App }
+  render: h => h(App)
 })
 
 export default vm
