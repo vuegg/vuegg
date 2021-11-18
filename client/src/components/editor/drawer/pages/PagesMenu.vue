@@ -47,10 +47,10 @@
 import { mapState, mapActions, mapMutations } from 'vuex'
 import { duplicatePage, removePage, _changeActivePage, _togglePageDialog, _clearSelectedElements } from '@/store/types'
 
-import '@/assets/icons/system/home'
-import '@/assets/icons/system/page'
-import '@/assets/icons/system/more_vert'
-import '@/assets/icons/system/add_page'
+// import '@/assets/icons/system/home'
+// import '@/assets/icons/system/page'
+// import '@/assets/icons/system/more_vert'
+// import '@/assets/icons/system/add_page'
 
 export default {
   name: 'pages-menu',

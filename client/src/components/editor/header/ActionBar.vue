@@ -79,7 +79,7 @@
 import { mapState, mapActions } from 'vuex'
 import { downloadProject, downloadVueSources, loadVueggProject } from '@/store/types'
 
-import '@/assets/icons/system/actions'
+// import '@/assets/icons/system/actions'
 
 export default {
   name: 'action-bar',

@@ -12,8 +12,8 @@
 </template>
 
 <script>
-import '@/assets/icons/system/collapse'
-import '@/assets/icons/system/expand'
+// import '@/assets/icons/system/collapse'
+// import '@/assets/icons/system/expand'
 
 export default {
   name: 'menu-toggle',

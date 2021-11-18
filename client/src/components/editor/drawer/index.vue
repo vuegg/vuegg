@@ -34,9 +34,9 @@ import ElementsMenu from './elements/ElementsMenu'
 import SettingsMenu from './settings/SettingsMenu'
 import PagesMenu from './pages/PagesMenu'
 
-import '@/assets/icons/system/widgets'
-import '@/assets/icons/system/settings'
-import '@/assets/icons/system/page'
+// import '@/assets/icons/system/widgets'
+// import '@/assets/icons/system/settings'
+// import '@/assets/icons/system/page'
 
 export default {
   name: 'drawegg',
