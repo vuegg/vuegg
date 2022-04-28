@@ -58,7 +58,7 @@ import materialComponents from '@/assets/MaterialComponents'
 // import mockComponents from '@/assets/MockComponents'
 import MenuToggle from '@/components/editor/common/MenuToggle'
 
-import '@/assets/icons/system/elements/'
+// import '@/assets/icons/system/elements/'
 
 export default {
   name: 'elements-menu',

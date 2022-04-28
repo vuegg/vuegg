@@ -18,8 +18,8 @@
 
 
 <script>
-import '@/assets/icons/system/editor/zoom_in'
-import '@/assets/icons/system/editor/zoom_out'
+// import '@/assets/icons/system/editor/zoom_in'
+// import '@/assets/icons/system/editor/zoom_out'
 
 const MAX_ZOOM = 2.5
 const MIN_ZOOM = 0.5

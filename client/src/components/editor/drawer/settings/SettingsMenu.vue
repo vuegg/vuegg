@@ -50,8 +50,8 @@ import MdcSettings from './submenus/MdcSettings.vue'
 import GlobalSettings from './submenus/GlobalSettings.vue'
 
 import WebSafeFonts from '@/assets/WebSafeFonts'
-import '@/assets/icons/system/editor/'
-import '@/assets/icons/system/elements/'
+// import '@/assets/icons/system/editor/'
+// import '@/assets/icons/system/elements/'
 
 export default {
   name: 'settings-menu',
