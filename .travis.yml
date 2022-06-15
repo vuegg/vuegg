@@ -15,5 +15,5 @@ script:
   - npm run build
 notifications:
   email:
-    recipients:
+  beneficiary:
       - vuegger@gmail.com
