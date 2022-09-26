@@ -82,7 +82,7 @@
     "karma-spec-reporter": "0.0.31",
     "karma-webpack": "^2.0.13",
     "mocha": "^3.2.0",
-    "nightwatch": "^0.9.21",
+    "nightwatch": "^2.3.9",
     "node-sass": "^4.13.1",
     "opn": "^5.3.0",
     "optimize-css-assets-webpack-plugin": "^2.0.0",
