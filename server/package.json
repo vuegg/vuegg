@@ -25,7 +25,7 @@
     "ora": "^1.4.0",
     "request": "^2.85.0",
     "request-promise-native": "^1.0.5",
-    "shelljs": "^0.7.8",
+    "shelljs": "^0.8.5",
     "shortid": "^2.2.8",
     "string": "^3.3.3"
   },
