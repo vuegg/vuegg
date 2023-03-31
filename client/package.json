@@ -92,7 +92,7 @@
     "sass-loader": "^6.0.7",
     "selenium-server": "^3.11.0",
     "semver": "^5.5.0",
-    "shelljs": "^0.7.6",
+    "shelljs": "^0.8.5",
     "sinon": "^2.1.0",
     "sinon-chai": "^2.14.0",
     "url-loader": "^0.5.8",
